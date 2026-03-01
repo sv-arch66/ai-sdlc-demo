@@ -10,6 +10,11 @@ def generate_checklist(phase):
             "Check dependency vulnerabilities",
             "Ensure secure coding standards"
         ],
+        "test": [
+            "Run automated security tests",
+            "Validate input sanitization",
+            "Perform dynamic analysis"
+        ],
         "deploy": [
             "Validate deployment scripts",
             "Run infrastructure security scan",
